@@ -224,7 +224,11 @@ if __name__ == "__main__":
     # start switched cameras
     for config in switchedCameraConfigs:
         startSwitchedCamera(config)
+    
+    print("**********************************************")
+    print("* Started webserver on http://localhost:1181 *")
+    print("**********************************************")
 
     # loop forever
     while True:
-time.sleep(10)
+        time.sleep(10)
